@@ -18,7 +18,7 @@ Display your name and courses and do one of the following:
 // Solution
 const name = 'Joshua Folorunsho';
 
-const courses = ['HTML', 'CSS', 'JS'];
+const courses = ['HTML', 'CSS', 'JS',,];
 
 
 console.log(name)
@@ -29,7 +29,7 @@ if (courses.length % 2) {
 		console.log(i);
 	}
 } else {
-	for (let i = 0; i <= 200; i += 2) {
+	for (let i = 2; i <= 200; i += 2) {
 		console.log(i);
 	}
 }
