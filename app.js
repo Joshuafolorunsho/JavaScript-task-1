@@ -20,6 +20,16 @@ const name = 'Joshua Folorunsho';
 
 const courses = ['HTML', 'CSS', 'JS'];
 
-for (let i = 1; i <= 200; i += 2) {
-	console.log(i);
+
+console.log(name)
+console.log(courses)
+
+if (courses.length % 2) {
+	for (let i = 1; i <= 200; i += 2) {
+		console.log(i);
+	}
+} else {
+	for (let i = 0; i <= 200; i += 2) {
+		console.log(i);
+	}
 }
