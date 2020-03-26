@@ -18,7 +18,7 @@ Display your name and courses and do one of the following:
 // Solution
 const name = 'Joshua Folorunsho';
 
-const courses = ['HTML', 'CSS', 'JS',,];
+const courses = ['HTML', 'CSS', 'JS'];
 
 
 console.log(name)
